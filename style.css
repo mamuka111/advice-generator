@@ -1,0 +1,44 @@
+body{
+    background-color:  #202733;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+.card{
+    width: 540px;
+    height: 332px;
+    border-radius:15px;
+    background-color: #313A48;
+    box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+    display: flex;
+   align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
+    
+}
+.span{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 18px;    
+    color: #53FFAA;
+}
+.img1{
+    /* margin-top: 250px; */
+}
+.button{
+    margin-top: -35px;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+.button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 40px #53FFAA;
+}
