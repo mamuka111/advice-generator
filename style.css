@@ -28,6 +28,8 @@ body{
     font-size: 13px;
     line-height: 18px;    
     color: #53FFAA;
+    text-align: center;
+    letter-spacing: 4.08571px;
 }
 .img1{
     /* margin-top: 250px; */
@@ -41,4 +43,19 @@ body{
 .button:hover{
     cursor: pointer;
     box-shadow: 0px 0px 40px #53FFAA;
+}
+.advice1{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 38px;
+text-align: center;
+letter-spacing: -0.3px;
+
+/* Light Cyan */
+
+color: #CEE3E9;
+width: 80%;
+height: 15%;
 }
