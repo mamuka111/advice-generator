@@ -2,8 +2,9 @@
 let span = document.querySelector(".advice1")
 let button = document.querySelector(".button")
 let span2 = document.querySelector(".span2")
+
+
 button.addEventListener("click", () =>{
- 
     axios.get(	"https://api.adviceslip.com/advice")
     .then(function(name){
         console.log(name.data.slip)

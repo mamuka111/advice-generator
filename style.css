@@ -59,3 +59,31 @@ color: #CEE3E9;
 width: 80%;
 height: 15%;
 }
+@media(max-width:376px){
+    .card{
+        width: 343px;
+        height: 315px;
+    }
+    .img2{
+        width:295px;
+        height: 16px;
+    }
+    .advice1{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: -0.257143px;
+    }
+    .span{
+        font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 11px;
+line-height: 15px;
+text-align: center;
+letter-spacing: 3.45714px;
+color: #53FFAA;
+    }
+}
